@@ -1,1 +1,4 @@
 /* You can customize theme styles here */
+.header .navbar-brand span:first-child {
+  color: rgb(4, 101, 186)
+}
