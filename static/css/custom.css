@@ -1,4 +1,12 @@
 /* You can customize theme styles here */
+html body ::selection {
+  background-color: #0465ba;
+}
+
 .header .navbar-brand span:first-child {
-  color: rgb(4, 101, 186)
+  color: #0465ba;
+}
+
+.experience__company {
+  color: #0465ba;
 }

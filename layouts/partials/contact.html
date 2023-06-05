@@ -5,7 +5,7 @@
             <h2>{{ .Site.Data.homepage.contact.title }}</h2>
             <div class="row pt-2">
                 <div class="col-12 col-lg-7">
-                    <form action="{{ .Site.Data.homepage.contact.form.action }}" method="{{ .Site.Data.homepage.contact.form.method }}">
+                    <!-- <form action="{{ .Site.Data.homepage.contact.form.action }}" method="{{ .Site.Data.homepage.contact.form.method }}">
                         <div class="row">
                             <div class="col-12 col-sm-6">
                                 <input type="text" name="" id="full_name"
@@ -30,7 +30,9 @@
                                 </button>
                             </div>
                         </div>
-                    </form>
+                    </form> -->
+                    Please contact me via<a href="{{ .Site.Data.homepage.contact.linkedin.url | absURL }}"  target="_blank">
+                        <i class="icon-linkedin-fill"></i>LinkedIn</a> or <a href="mailto:tcc919s@gmail.com"><i class="icon-mail-fill"></i>Email (tcc919s@gmail.com)</a>
                 </div>
                 <div class="col-12 col-lg-5 contact__info">
                     <h4>{{ .Site.Data.homepage.contact.phone.title }}</h4>
